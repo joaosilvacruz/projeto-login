@@ -70,7 +70,7 @@ form > div.campo {
     height: 40px;
     border-radius: 10px;
     margin: 5px 0px;
-    border: 1.8px solid #602c82;
+    border: 2px solid #602c82;
 }
 
 form label {
@@ -124,11 +124,11 @@ form > a.botao > span {
 
 div.campo > input {
     background-color: #8cdad7e7;
-    width: calc(100% - 44.5px);
     border: none;
     border-radius: 10px;
     height: 100%;
     font-size: 1em;
+    width: calc(100% - 44.5px);
     transform: translateY(-12.3px);
 }
 

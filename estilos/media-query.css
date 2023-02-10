@@ -34,9 +34,8 @@
     }
     
     section#login {
-        width: 80vw;
-        height: 350px;
-
+        width: 70vw;
+        height: 450px;
     }
 
     section#login > div#imagem{
@@ -48,12 +47,13 @@
     section#login > div#formulario{
         float: left;
         width: 50%;
+        margin-top: 40px;
     }
 
     div#formulario p {
         text-align: justify;
         font-size: 1.1em;
-        padding-bottom: 15px;
+        padding-bottom: 30px;
     }
 
     form > input[type=submit]{
