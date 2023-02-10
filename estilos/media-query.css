@@ -4,8 +4,10 @@
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+
     section#login {
-        width: 80vh;
+        width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -20,6 +22,7 @@
     }
 
     div#formulario p {
+        padding-bottom: 10px;
         font-size: 1em;
     }
     
@@ -31,7 +34,9 @@
     }
     
     section#login {
-        width: 950px;
+        width: 80vw;
+        height: 350px;
+
     }
 
     section#login > div#imagem{
@@ -46,7 +51,13 @@
     }
 
     div#formulario p {
-        font-size: 1.2em;
+        text-align: justify;
+        font-size: 1.1em;
+        padding-bottom: 15px;
+    }
+
+    form > input[type=submit]{
+        margin-top: 20px;
     }
     
 }
